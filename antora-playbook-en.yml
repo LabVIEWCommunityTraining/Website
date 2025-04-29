@@ -14,6 +14,7 @@ antora:
 urls:
   latest_version_segment: latest
   latest_version_segment_strategy: redirect:from
+  redirect_facility: httpd
 content:
   sources:
   - url: https://github.com/LabVIEWCommunityTraining/Website-Home-Section
