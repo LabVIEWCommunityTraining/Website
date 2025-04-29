@@ -28,6 +28,10 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '18'
+    - name: Install Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.3'
     - name: Install Antora
       run: npm i antora
     - name: Install the Antora Lunr Extension
