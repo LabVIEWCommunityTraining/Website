@@ -1,0 +1,10 @@
+root_level: 0
+component_versions: '**'
+section_merge_strategy: 'fuse'
+asciidoc:
+  attributes:
+    pdf-theme: ./pdf-theme/pdf-theme.yml
+    pdf-fontsdir: ./pdf-theme/fonts/Nunito;GEM_FONTS_DIR
+    toc: left
+
+

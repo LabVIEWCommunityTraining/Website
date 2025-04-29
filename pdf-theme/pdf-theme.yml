@@ -1,0 +1,65 @@
+extends: default
+font:
+  catalog:
+    # Noto Serif supports Latin, Latin-1 Supplement, Latin Extended-A, Greek, Cyrillic, Vietnamese & an assortment of symbols
+    Noto Serif:
+      normal: notoserif-regular-subset.ttf
+      bold: notoserif-bold-subset.ttf
+      italic: notoserif-italic-subset.ttf
+      bold_italic: notoserif-bold_italic-subset.ttf
+    # M+ 1mn supports ASCII and the circled numbers used for conums
+    M+ 1mn:
+      normal: mplus1mn-regular-subset.ttf
+      bold: mplus1mn-bold-subset.ttf
+      italic: mplus1mn-italic-subset.ttf
+      bold_italic: mplus1mn-bold_italic-subset.ttf
+    # CTI Font
+    Nunito:
+      normal: nunito-normal.ttf
+      italic: nunito-italic.ttf
+      bold: nunito-bold.ttf
+      bold_italic: nunito-bold_italic.ttf
+base:
+  font-color: #878787
+  font-family: Nunito
+role:
+  love:
+    font-color: E0245E
+  wild:
+    font-color: 222222
+    text-transform: uppercase
+    font-style: italic
+    background-color: BCD637
+    border-offset: 1.5
+header:
+  font_color: 999999
+  height: 0.5in
+  recto:
+    columns: "<40% =20% >40%"
+    right:
+      content: '_{document-title}_ - Copyright (C) CTI'
+    left:
+      content: image:CTI_lv_persona.png[pdfwidth=1cm]
+  verso:
+    columns: $header_recto_columns
+    left:
+      content: $header_recto_right_content
+    right:
+      content: $header_recto_left_content
+footer:
+  height: 0.45in
+  recto:
+    right:
+      content: '{section-or-chapter-title} | {page-number}'
+  verso:
+    left:
+      content: '{page-number} | {chapter-title}'
+title-page:
+  background-image: image:CTI.png[float="left",position=top]
+  font-family: Nunito
+  title:
+    top: 50%
+  # caption
+  # image-caption-align: center
+page:
+  margin: [0.5in, 0.67in, 1in, 0.67in]
