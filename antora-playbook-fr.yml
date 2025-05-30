@@ -10,6 +10,8 @@ antora:
     languages: [fr]
   - require: ./antora-navigator-extension
     config_file: ./antora-navigator-fr.yml
+  - require: '@antora/pdf-extension'
+    config_file: ./antora-assembler.yml
 
 urls:
   latest_version_segment: latest
