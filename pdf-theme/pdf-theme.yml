@@ -1,4 +1,4 @@
-extends: default
+extends: default-with-font-fallbacks
 font:
   catalog:
     # Noto Serif supports Latin, Latin-1 Supplement, Latin Extended-A, Greek, Cyrillic, Vietnamese & an assortment of symbols
