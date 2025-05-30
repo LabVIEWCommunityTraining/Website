@@ -1,6 +1,9 @@
 root_level: 0
 component_versions: '**'
 section_merge_strategy: 'fuse'
+build:
+  clean: true
+  qualify_exports: true
 asciidoc:
   attributes:
     pdf-theme: ./pdf-theme/pdf-theme.yml
