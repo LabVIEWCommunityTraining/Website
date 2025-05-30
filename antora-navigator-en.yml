@@ -2,7 +2,7 @@ groups:
 - root: true
   components: 'ROOT'
 - title: Courses
-  components: 'course_*'
+  components: ['course_*','!course_template']
 # - title: Material
 #   components: ['*','!contribute']
 output_file: site-navigation-data.js
