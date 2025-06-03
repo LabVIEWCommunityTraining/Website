@@ -41,6 +41,7 @@ asciidoc:
     lv: LabVIEW(TM)
     wip: This section is under construction
     nt: Need translation from
+    ui: User Interface
 ui:
   bundle:
     url: https://labviewcommunitytraining.github.io/Website-UI/en/ui-bundle.zip
